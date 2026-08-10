@@ -1,0 +1,5 @@
+# Ignore downloaded raw datasets but keep them on this computer.
+data/raw/*
+
+# Ignore PyCharm's local project settings.
+.idea/
