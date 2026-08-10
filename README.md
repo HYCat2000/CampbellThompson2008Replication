@@ -11,3 +11,6 @@ Review of Financial Studies, 21(4), 1509–1531.
 
 Replicate the main out-of-sample stock return forecasting
 results of Campbell and Thompson (2008) using Python.
+
+Status: Work in progress
+Current progress: data loaded and initial predictors constructed
