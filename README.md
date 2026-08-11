@@ -13,4 +13,6 @@ Replicate the main out-of-sample stock return forecasting
 results of Campbell and Thompson (2008) using Python.
 
 Status: Work in progress
-Current progress: data loaded and initial predictors constructed
+
+8/10/2026 progress: data loaded and initial predictors constructed
+8/11/2026 progress: implemented the in-sample dividend-price predictive regression; began integrating Shiller data to extend total returns before 1927
