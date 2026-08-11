@@ -34,3 +34,6 @@ df_1927 = df[df["yyyymm"] >= 192701]
 
 # Print the first five observations from 1927 onward to check the constructed variables.
 print(df_1927[["yyyymm", "dp", "ep", "term_spread", "excess_return"]].head())
+
+# Save the processed data for later analysis
+df.to_csv("../data/processed/constructed_predictors.csv", index=False)
