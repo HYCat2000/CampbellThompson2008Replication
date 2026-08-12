@@ -4,7 +4,7 @@ import pandas as pd
 import statsmodels.api as sm
 
 # Load the processed dataset created in 01_load_and_prepare_data.py
-df = pd.read_csv("../data/processed/constructed_predictors.csv")
+df = pd.read_csv("../data/processed/merged_predictor_returns.csv")
 
 # Check that the data loaded correctly
 print(df.head())
